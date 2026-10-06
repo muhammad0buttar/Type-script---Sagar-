@@ -1,11 +1,19 @@
-let anyname: string = "madam";
-let reversed: string= "";
-for (let i = anyname.length- 1; i >= 0; i --){
-    reversed = reversed + anyname[i];
+// 
+let food: string = "roast";
+let reversed: string = " ";
+for (let i = food.length - 1; i>=0; i --) {
+reversed = reversed + food [i];
 }
 console.log(reversed);
-if (anyname === reversed){
-    console.log("palindrome");
-    }else {
- console.log("not a palindrome");
-    }
+
+
+if (food === reversed){
+
+
+console.log("palindrome");
+}
+else {
+console.log("non palindrome");
+
+
+}
